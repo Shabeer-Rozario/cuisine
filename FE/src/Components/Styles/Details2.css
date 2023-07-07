@@ -1,0 +1,41 @@
+.tabs{
+    position: absolute;
+    left: 0px;
+    border: 1px solid black;
+    width: 100%;
+}
+.heading{
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}
+  .pannel{
+    margin-left: 30px;
+  }
+
+
+.Phone{
+    
+    font-style: italic;
+    color: red;
+}
+.btn-order{
+    position: relative;
+    top: 80px;
+    right: -50%;
+    margin-right: 40px;
+    width: 170px;
+    height: 35px;
+    border-radius: 6%;
+    background-color: #ce0505;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}

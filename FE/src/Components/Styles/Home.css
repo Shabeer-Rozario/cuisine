@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homeImage {
+  height: 450px;
+  width: 100%;
+}
+.navs {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-right: 20px;
+  margin-right: 30px;
+}
+.loginButton {  
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.createButton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.topSection {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  height:44px;
+  margin: auto;
+  padding: 50px;
+  font-size: 80px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 40px;
+  letter-spacing: normal;
+  color: #fe2222;
+  opacity: 1;
+  font-style: italic;
+}
+.headerText {
+  height: 51px;
+  font-size: 36px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.searchOptions {
+  margin-top: 30px;
+  position: relative;
+}
+.locationIcon {
+  position: absolute;
+  top: -3px;
+  padding: 15px;
+  font-size: 18px;
+  color: rgb(239, 79, 95);
+}
+.locationBox {
+  outline: none;
+  width: 245px;
+  height: 45px;
+  margin: 0 21px 0 0px;
+  padding: 10px 10px 10px 39px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ef4f5f;
+}
+.optiontag{
+  background-color: #f0efef;
+  color: #fc172e;
+}
+.searchBox {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  top: -9px;
+  left: 30px;
+  padding: 7px;
+  font-size: 18px;
+  color: rgb(239, 79, 95);
+}
+.searchInput {
+  outline: none;
+  width: 477px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 0 0 0 21px;
+  padding: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  font-size: 18px;
+  color: #ef4f5f;
+}
+.searchBox li{
+  width: 470px;
+  height: 45px;
+  margin: 2px 0 0 508px;
+  border-radius: 10px;
+  padding: 10px ;
+  text-decoration: none;
+  list-style: none;
+  background-color: #dfdddd;
+  color: #f70e0e ;
+}
+.searchBox li:hover{
+  transition: 0.5s;
+  font-size: 18px;
+  background-color: #050505;
+  color: #fd4d4d ;
+}
+.bottomSection {
+  margin: 50px 80px 80px 80px;
+}
+.heading {
+  height: 43px;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.subHeading {
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.boxContainer {
+  margin-top: 30px;
+}
+.boxes {
+  display: inline-block;
+  width: 33%;
+}
+.boxContent {
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.qsImage {
+  width: 160px;
+  height: 160px;
+  margin: 0 29px 0 0;
+}
+.itemHeading {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.itemDescription {
+  position: absolute;
+  top: 50px;
+  left: 190px;
+  max-width: 190px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+  
+  @media (max-width: 1136px) {
+    
+   
+    .itemDescription {
+      max-width: 150px;
+      left: 170px;
+      top: 30px;
+    }
+    .itemHeading {
+      left: 170px;
+    }
+  }
+  
+  @media (max-width: 920px) {
+    
+    .boxes {
+      width: 49.5%;
+    }
+    .boxContent {
+      left: -20px;
+    }
+    .itemDescription {
+      width: 140px;
+      left: 180px;
+      top: 50px;
+    }
+    .itemHeading {
+      left: 180px;
+    }
+    .searchInput {
+      width: 300px;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    .locationBox {
+      margin-top: 30px;
+      margin-left: 30px;
+      background-color: #fff;
+    }
+      .searchIcon {
+        display: none;
+      }
+  }
